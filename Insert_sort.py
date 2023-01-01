@@ -8,7 +8,6 @@ def Insert_sort(arr, acse = True) :
                 break
             if not acse and arr[j] > key :
                 break
-            print(key, arr[j])
             arr[j+1] = arr[j]
             j -= 1
         arr[j+1] = key
